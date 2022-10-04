@@ -1,0 +1,41 @@
+h1{
+	color: royalblue;
+	text-align: center;
+	background: cyan;
+	width: 150px;
+	margin-left: 300px;
+	border: 2px solid grey;
+
+}
+body{
+	background-color: pink;
+}
+
+div{
+	color: orange;
+	text-align: center;
+	background-color: azure;
+	width: 80px;
+	height: 80px;
+	border: 2px solid grey;
+	margin-left:  300px;
+	align-self: center;
+}
+
+@keyframes changetilt {
+  from {
+    transform: rotate(15deg);
+  }
+
+  to {
+    transform: rotate(-15deg);
+  }
+}
+
+div {
+  animation-duration: 0.2s;
+  animation-name: changetilt;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
